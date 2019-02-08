@@ -1,3 +1,3 @@
-# newland_18405244
+# the new web times
 
 A newspaper-styled website
