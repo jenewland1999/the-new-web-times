@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Character Set, Viewport and Compatibility tags. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Webpage title -->
+        <title>The New Web Times - Homepage</title>
+        <meta name="description" content="An online news publisher informing you of the newest web trends, stories, terminology, skills and careers.">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#32ce75">
+        <meta name="msapplication-TileColor" content="#ff0000">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS Libs / 3rd Party -->
+        <link rel="stylesheet" href="https://use.typekit.net/boh5mwd.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="public/css/lib/normalize.css">
+
+        <!-- Site-Specific CSS -->
+        <link rel="stylesheet" href="public/css/bundle.css">
+    </head>
+
+    <!-- Using BEM naming convention for CSS Classes. To learn more visit the official website. http://getbem.com/ -->
+    <body class="page page__index">
+        <div class="offcanvas">
+            <header class="offcanvas__header">
+                <h3 class="offcanvas__heading">Navigation</h3>
+                <span class="offcanvas__button">
+                    <i class="fas fa-times"></i>
+                </span>
+            </header>
+
+            <nav class="site__navigation">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="reviews.html" class="nav__link">Reviews</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="glossary.html" class="nav__link">Glossary</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="jobs.html" class="nav__link">Jobs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="tutorials.html" class="nav__link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <!-- Icon - Menu -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-menu" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M0 0h24v24H0z" fill="none"/>
+                <path class="svg-b" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            <a href="index.html" class="page__link">
+                <h1 class="page__title">The New Web Times</h1>
+            </a>
+            <!-- Icon - Search -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-search" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </header>
+        <section class="infobar">
+            <time class="infobar__time" datetime="2019-01-12">Saturday, 12th January 2019</time>
+            <a href="#" class="infobar__cta">Subscribe</a>
+        </section>
+        <section class="headline">
+            <figure class="headline__figure">
+                <img src="public/img/jumbotron_figure.jpg" alt="">
+            </figure>
+            <div class="headline__body">
+                <h2 class="headline__heading">10 Google Searches You Never Knew Existed</h2>
+                <div class="headline__metadata">
+                    <span class="metadata__time">
+                        <!-- Icon - Time -->
+                        <svg viewbox="0 0 24 24" width="24" height="24" class="icon-time" xmlns="http://www.w3.org/2000/svg">
+                            <path class="svg-a" d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                            <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                            <path class="svg-c" d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                        </svg>
+                        <span>12m ago</span>
+                    </span>
+                    <span class="metadata__author">
+                        <!-- Icon - Person -->
+                        <svg viewbox="0 0 24 24" width="24" height="24" class="icon-person" xmlns="http://www.w3.org/2000/svg">
+                            <path class="svg-a" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                        </svg>
+                        <span>Jordan Newland</span>
+                    </span>
+                </div>
+                <p class="headline__summary">Google is filled with secrets, after all they are quite a geeky bunch behind the scenes. This article takes a look at ten google searches you never even knew about.</p>
+            </div>
+        </section>
+        <main class="page__content">
+            <section class="section__welcome">
+                <h3 class="section__heading heading--general">Welcome</h3>
+                <p class="section__paragraph">
+                    Hello there, and welcome to The New Web Times; the online news publisher informing you of the newest web trends, stories, skills and more. So, stick around and be sure to learn a thing or two and subscribe and share with all your web development colleagues and friends.
+                </p>
+                <p class="section__paragraph">
+                    Founded in late 2018, our small team, based in the UK, of content-creators, web developers, designers and other web professionals are working around the clock to provide our readers with new and exciting content. Content that is without advertisements, paywalls and completely open and transparent. Which we believe is how the web should be.
+                </p>
+                <p class="section__paragraph">
+                    Unlike other news sources, The New Web Times believes in finding and showing off the talent of others out there, whether they are an avid writer wanting to share news, web developers or designers with experience in the field wanting to share their tips and tricks or even professionals wanting to share job opportunities with our community. If you are one of these people or perhaps even someone with something interesting to share with the world contact us via social media and we will take your stories and articles into consideration for our website. After all, a community isn't formed by just one person. 
+                </p>
+            </section>
+            <section class="section__tutorials">
+                <h3 class="section__heading heading--tutorials">Tutorials</h3>
+                <div class="tutorial__wrapper">
+                    <article class="tutorial">
+                        <figure class="tutorial__figure">
+                            <img class="tutorial__img" src="https://placehold.it/1920x1080" alt="">
+                            <figcaption class="tutorial__caption">Alt Text: Put text here</figcaption>
+                        </figure>
+                        <div class="tutorial__body">
+                            <h4 class="tutorial__heading">HTML: The Basics</h4>
+                            <p class="tutorial__description">Welcome to HTML: The Basics. In this tutorial you will learn about the basics of HTML including document setup, history of html, semantic web and various other basic skills in order to produce a letter with images, links, styled text and more. </p>
+                            <ul class="tutorial__stats">
+                                <li class="stat__item">
+                                    <!-- Icon - Difficulty - Easy -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-difficulty_easy" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" fill-opacity=".3" d="M2 22h20V2z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Easy</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Person -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-person" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Jordan Newland</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Empty Hourglass -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-empty_hourglass" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"/>
+                                        <path class="svg-b" fill="none" d="M0 0h24v24H0V0z"/>
+                                    </svg>
+                                    <span class="stat__label">0h 45m</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Money -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-money" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">£0.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="tutorial">
+                        <figure class="tutorial__figure">
+                            <img class="tutorial__img" src="https://placehold.it/1920x1080" alt="">
+                            <figcaption class="tutorial__caption">Alt Text: Put text here</figcaption>
+                        </figure>
+                        <div class="tutorial__body">
+                            <h4 class="tutorial__heading">JavaScript - Class #1 - Variables & Datatypes </h4>
+                            <p class="tutorial__description">Welcome to the first in a series of JavaScript classes for beginners. This tutorial will teach users with a basic understanding of programming what datatypes exist in JavaScript as well as how to declare variables, constants and scope specific variables (let).</p>
+                            <ul class="tutorial__stats">
+                                <li class="stat__item">
+                                    <!-- Icon - Difficulty - Intimediary -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-difficulty_intimediary" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" fill-opacity=".3" d="M2 22h20V2z"/>
+                                        <path class="svg-b" d="M14 10L2 22h12z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Intimediary</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Person -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-person" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Jordan Newland</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Empty Hourglass -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-empty_hourglass" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"/>
+                                        <path class="svg-b" fill="none" d="M0 0h24v24H0V0z"/>
+                                    </svg>
+                                    <span class="stat__label">1h 10m</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Money -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-money" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">£0.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="tutorial">
+                        <figure class="tutorial__figure">
+                            <img class="tutorial__img" src="https://placehold.it/1920x1080" alt="">
+                            <figcaption class="tutorial__caption">Alt Text: Put text here</figcaption>
+                        </figure>
+                        <div class="tutorial__body">
+                            <h4 class="tutorial__heading">Git Basics in 10 minutes</h4>
+                            <p class="tutorial__description">Are you ready? Are you steady? In this weeks 10 minute tutorial you learn how to setup a Git repository from the terminal and push your initial code to a blank (existing) GitHub repository. Be warned - this is not for the faint hearted!</p>
+                            <ul class="tutorial__stats">
+                                <li class="stat__item">
+                                    <!-- Icon - Difficulty - Hard -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-difficulty_hard" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M2 22h20V2z"/>
+                                        <path class="svg-a" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Hard</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Person -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-person" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">Jordan Newland</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Empty Hourglass -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-empty_hourglass" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"/>
+                                        <path class="svg-b" fill="none" d="M0 0h24v24H0V0z"/>
+                                    </svg>
+                                    <span class="stat__label">0h 10m</span>
+                                </li>
+                                <li class="stat__item">
+                                    <!-- Icon - Money -->
+                                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-money" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-a" d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                                        <path class="svg-b" d="M0 0h24v24H0z" fill="none"/>
+                                    </svg>
+                                    <span class="stat__label">£0.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section__reviews">
+                <h3 class="section__heading heading--reviews">Reviews</h3>
+                <p class="section__paragraph">This weeks reviews take a look at two web-related resources that teach people about how to learn web development from the basics right up to the advanced level of web mastery. It reviews the reliability of information, accuracy and presentation of information.</p>
+                <a href="#" class="section__button button--reviews">Continue Reading...</a>
+            </section>
+            <section class="section__jobs">
+                <h3 class="section__heading heading--jobs">Jobs</h3>
+                <p class="section__paragraph">When it comes to careers, nothing is more important than knowing which one is the right one to take. This week in jobs, we take a look at two web development jobs in the UK and what they have to offer, what they are offering to pay and what benefits are available.</p>
+                <a href="#" class="section__button button--jobs">Continue Reading...</a>
+            </section>
+            <section class="section__glossary">
+                <h3 class="section__heading heading--glossary">Glossary</h3>
+                <p class="section__paragraph">Our weekly web terms for this week are CSS Grid, HTTPS, FOUC and CTA. Take a look at what they mean and all our other terminology in the full glossary below.</p>
+                <div class="definitions">
+                    <article class="definition">
+                        <h4 class="definition__heading">CSS Grid</h4>
+                        <p class="definition__text">CSS Grid Layout is a CSS layout method designed for the two-dimensional layout of items on a webpage or application.</p>
+                        <a href="https://gridbyexample.com/what" target="_blank" class="definition__reference">Definition from gridbyexample.com/what by Rachel Andrew</a>
+                    </article>
+                    <article class="definition">
+                        <h4 class="definition__heading">HTTPS</h4>
+                        <p class="definition__text">Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP, the protocol over which data is sent between your browser and the website that you are connected to. The 'S' at the end of HTTPS stands for 'Secure'. It means all communications between your browser and the website are encrypted.</p>
+                        <a href="https://www.instantssl.com/ssl-certificate-products/https.html" target="_blank" class="definition__reference">Definition from instantssl.com/ssl-certificate-products/https.html</a>
+                    </article>
+                    <article class="definition">
+                        <h4 class="definition__heading">FOUC</h4>
+                        <p class="definition__text">FOUC stands for Flash of Unstyled Content. This situation occurs whenever a Web browser ends up showing your Web page’s content without having any style information yet.</p>
+                        <a href="https://webkit.org/blog/66/the-fouc-problem" target="_blank" class="definition__reference">Definition from webkit.org/blog/66/the-fouc-problem by Dave Hyatt</a>
+                    </article>
+                    <article class="definition">
+                        <h4 class="definition__heading">CTA</h4>
+                        <p class="definition__text">A call to action (CTA) is a marketing term that refers to the next step a marketer wants its audience or reader to take. The  CTA can have a direct link to sales. For example, it can instruct the reader to click the buy button to complete a sale or it can simply move the audience further along towards becoming a consumer of that company's goods or services.</p>
+                        <a href="https://www.investopedia.com/terms/c/cta.asp" target="_blank" class="definition__reference">Definition from investopedia.com/terms/c/call-action-cta.asp</a>
+                    </article>
+                    <a href="#" class="section__button button--tutorials">View all Definitions</a>
+                </div>
+            </section>
+            <section class="section__team">
+                <h3 class="section__heading heading--general">Our Chief Editor</h3>
+                <div class="avatars">
+                    <div class="avatar"><img src="public/img/avatar-newland_j-01.jpg" alt="" class="avatar__img"></div>
+                    <div class="avatar"><img src="public/img/avatar-newland_j-02.jpg" alt="" class="avatar__img"></div>
+                    <div class="avatar"><img src="public/img/avatar-newland_j-03.jpg" alt="" class="avatar__img"></div>
+                </div>
+                <em class="team__quote">I like trains... No, really, I do.</em>
+                <p class="section__paragraph">
+                    Hello, my name is Jordan Newland, I am the chief editor and CEO of The New Web Times. I have worked in the web industry for the past 8 years working on both front and back end projects ranging from client websites to huge scale web applications. My specialities are HTML5, CSS, ES6 JavaScript, React for the front end and Node.js, GoLang, GraphQL and Postgres on the back end.
+                </p>
+                <p class="section__paragraph">
+                    I decided to start The New Web Times as a side project during what little spare time I have and after what can only be described as a massive success over the past few months it has now become my full time employment which I look forward to every single day.
+                </p>
+                <p class="section__paragraph">
+                    During my spare time, that thing I have very little of I like to play tennis, visit the cinema, listen to music at home or at the club and read about new technologies and other subjects such as cryptography, politics, transportation and space exploration.
+                </p>
+            </section>
+        </main>
+        <section class="newsletter">
+            <h3 class="newsletter__heading"><em>Subscribe to our Newsletter</em></h3>
+            <form class="newsletter__form" action="/newsletter" method="POST">
+                <label class="newsletter__label">
+                    <input class="newsletter__input" type="text" name="newsletter-email" id="newsletter-email" placeholder="Email Address">
+                    <!-- Icon - Checkmark in Circle -->
+                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-checkmark_circle" xmlns="http://www.w3.org/2000/svg">
+                        <path class="svg-a" fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"/>
+                        <path class="svg-b" d="M16.59 7.58L10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
+                    </svg>
+                </label>
+                <button class="newsletter__button" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <footer class="page__footer">
+            <h2 class="footer__heading">The New Web Times</h2>
+            <nav class="footer__nav">
+                <ul class="footer__navlist">
+                    <li class="footer__navlist-item">
+                        <a href="index.html" class="footer__navlist-link">Home</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="reviews.html" class="footer__navlist-link">Reviews</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="glossary.html" class="footer__navlist-link">Glossary</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="jobs.html" class="footer__navlist-link">Jobs</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="tutorials.html" class="footer__navlist-link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__nav--social">
+                <ul class="footer__navlist--social">
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                        <i class="fab fa-facebook-f"></i>
+                    </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                        <i class="fab fa-reddit"></i>
+                    </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                        <i class="fas fa-rss"></i>
+                    </a></li>
+                </ul>
+            </nav>
+            <p class="copyright">
+                Copyright &copy; 2019 The New Web Times
+            </p>
+        </footer>
+
+
+        <!-- Declare JavaScript at the bottom of the body to ensure content and styles load before functionality. -->
+        <script src="public/js/00_default.js"></script>
+    </body> <!-- /body.page__index -->
+
+</html>

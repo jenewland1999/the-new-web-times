@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Character Set, Viewport and Compatibility tags. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Webpage title -->
+        <title>The New Web Times - Glossary</title>
+        <meta name="description" content="An online news publisher informing you of the newest web trends, stories, terminology, skills and careers.">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#32ce75">
+        <meta name="msapplication-TileColor" content="#ff0000">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS Libs / 3rd Party -->
+        <link rel="stylesheet" href="https://use.typekit.net/boh5mwd.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="public/css/lib/normalize.css">
+
+        <!-- Site-Specific CSS -->
+        <link rel="stylesheet" href="public/css/bundle.css">
+    </head>
+
+    <!-- Using BEM naming convention for CSS Classes. To learn more visit the official website. http://getbem.com/ -->
+
+    <body class="page page__glossary">
+        <div class="offcanvas">
+            <header class="offcanvas__header">
+                <h3 class="offcanvas__heading">Navigation</h3>
+                <span class="offcanvas__button">
+                    <i class="fas fa-times"></i>
+                </span>
+            </header>
+
+            <nav class="site__navigation">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="reviews.html" class="nav__link">Reviews</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="glossary.html" class="nav__link">Glossary</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="jobs.html" class="nav__link">Jobs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="tutorials.html" class="nav__link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <!-- Icon - Menu -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-menu" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M0 0h24v24H0z" fill="none" />
+                <path class="svg-b" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+            <a href="index.html" class="page__link">
+                <h1 class="page__title">The New Web Times</h1>
+            </a>
+            <!-- Icon - Search -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-search" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                <path class="svg-b" d="M0 0h24v24H0z" fill="none" />
+            </svg>
+        </header>
+        <section class="infobar">
+            <time class="infobar__time" datetime="2019-01-12">Saturday, 12th January 2019</time>
+            <a href="#" class="infobar__cta">Subscribe</a>
+        </section>
+        <main class="page__content">
+            <section class="section__glossary">
+                <h3 class="section__heading heading--glossary">Glossary</h3>
+                <p class="section__paragraph">Our weekly web terms for this week are CSS Grid, HTTPS, FOUC and CTA.
+                    Take a look at what they mean and all our other terminology in the full glossary below.</p>
+                <div class="definitions">
+
+                    <article class="definition">
+                        <h4 class="definition__heading">CSS Grid</h4>
+                        <p class="definition__text">CSS Grid Layout is a CSS layout method designed for the
+                            two-dimensional layout of items on a webpage or application.</p>
+                        <a href="https://gridbyexample.com/what" target="_blank" class="definition__reference">Definition
+                            from gridbyexample.com/what by Rachel Andrew</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">HTTPS</h4>
+                        <p class="definition__text">Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
+                            of HTTP, the protocol over which data is sent between your browser and the website that you
+                            are connected to. The 'S' at the end of HTTPS stands for 'Secure'. It means all
+                            communications between your browser and the website are encrypted.</p>
+                        <a href="https://www.instantssl.com/ssl-certificate-products/https.html" target="_blank" class="definition__reference">Definition
+                            from instantssl.com/ssl-certificate-products/https.html</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">FOUC</h4>
+                        <p class="definition__text">FOUC stands for Flash of Unstyled Content. This situation occurs
+                            whenever a Web browser ends up showing your Web page’s content without having any style
+                            information yet.</p>
+                        <a href="https://webkit.org/blog/66/the-fouc-problem" target="_blank" class="definition__reference">Definition
+                            from webkit.org/blog/66/the-fouc-problem by Dave Hyatt</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">CTA</h4>
+                        <p class="definition__text">A call to action (CTA) is a marketing term that refers to the next
+                            step a marketer wants its audience or reader to take. The CTA can have a direct link to
+                            sales. For example, it can instruct the reader to click the buy button to complete a sale
+                            or it can simply move the audience further along towards becoming a consumer of that
+                            company's goods or services.</p>
+                        <a href="https://www.investopedia.com/terms/c/cta.asp" target="_blank" class="definition__reference">Definition
+                            from investopedia.com/terms/c/call-action-cta.asp</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">HTTP</h4>
+                        <p class="definition__text">HTTP (Hypertext Transfer Protocol) is the set of rules for
+                            transferring files (text, graphic images, sound, video, and other multimedia files) on the
+                            World Wide Web.</p>
+                        <a href="https://searchwindevelopment.techtarget.com/definition/HTTP" class="definition__reference">Definition
+                            from techtarget.com</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">ES6</h4>
+                        <p class="definition__text">ES6 refers to version 6 of the ECMA Script programming language.
+                            ECMA Script is the standardized name for JavaScript, and version 6 is the next version
+                            after version 5, which was released in 2011. It is a major enhancement to the JavaScript
+                            language, and adds many more features intended to make large-scale software development
+                            easier.</p>
+                        <a href="https://www.makeuseof.com/tag/es6-javascript-programmers-need-know/" class="definition__reference">Definition
+                            from makeuseof.com</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">DNS</h4>
+                        <p class="definition__text">The Domain Name System (DNS) is the phonebook of the Internet.
+                            Humans access information online through domain names, like nytimes.com or espn.com. Web
+                            browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to
+                            IP addresses so browsers can load Internet resources.</p>
+                        <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" class="definition__reference">Definition
+                            from Cloudflare</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">Cookies</h4>
+                        <p class="definition__text">A cookie is just one or more pieces of information stored as text
+                            strings on your machine. A Web server sends you a cookie and the browser stores it. The
+                            browser then returns the cookie to the server the next time the page is referenced.</p>
+                        <a href="https://computer.howstuffworks.com/internet/basics/question82.htm" class="definition__reference">Definition
+                            from howstuffworks.com</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">Web Browser</h4>
+                        <p class="definition__text">If you want to view web pages on different websites, you will need
+                            to use a program called a 'browser'. This acts as your door to the internet. Browsers are
+                            all slightly different, but they all allow you to 'surf' the internet and access different
+                            websites.</p>
+                        <a href="http://www.bbc.co.uk/webwise/0/22562353" class="definition__reference">Definition from
+                            BBC</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">Responsive Web Design (RWD)</h4>
+                        <p class="definition__text">Responsive web design is a style of web development where both the
+                            layout and the content responds to the device on which it is being rendered and the size of
+                            the screen it is presented on. If you're viewing this article on a desktop browser, for
+                            example, try making your browser window smaller. The content column will shrink and the
+                            placement of the text will adjust. On our homepage, you'll see the image sizes adjust and
+                            the layout shrink from three columns, to two columns, to a singular column of content.</p>
+                        <a href="https://www.commonplaces.com/blog/responsive-web-design-what-it-is-and-why-we-use-it/"
+                            class="definition__reference">Definition from commonplaces.com</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">CSS</h4>
+                        <p class="definition__text">CSS is the language for describing the presentation of Web pages,
+                            including colors, layout, and fonts. It allows one to adapt the presentation to different
+                            types of devices, such as large screens, small screens, or printers. CSS is independent of
+                            HTML and can be used with any XML-based markup language. The separation of HTML from CSS
+                            makes it easier to maintain sites, share style sheets across pages, and tailor pages to
+                            different environments. This is referred to as the separation of structure (or: content)
+                            from presentation.</p>
+                        <a href="https://www.w3.org/standards/webdesign/htmlcss" class="definition__reference">Definition
+                            from w3.org</a>
+                    </article>
+
+                    <article class="definition">
+                        <h4 class="definition__heading">Front-end Developer</h4>
+                        <p class="definition__text">A front-end developer architects and develops websites and
+                            applications using web technologies (i.e., HTML, CSS, DOM, and JavaScript), which run on
+                            the Open Web Platform or act as compilation input for non-web platform environments (i.e.,
+                            React Native).</p>
+                        <a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" class="definition__reference">Definition
+                            from frontendmasters.com</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <section class="newsletter">
+            <h3 class="newsletter__heading"><em>Subscribe to our Newsletter</em></h3>
+            <form class="newsletter__form" action="/newsletter" method="POST">
+                <label class="newsletter__label">
+                    <input class="newsletter__input" type="text" name="newsletter-email" id="newsletter-email"
+                        placeholder="Email Address">
+                    <!-- Icon - Checkmark in Circle -->
+                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-checkmark_circle" xmlns="http://www.w3.org/2000/svg">
+                        <path class="svg-a" fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z" />
+                        <path class="svg-b" d="M16.59 7.58L10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+                    </svg>
+                </label>
+                <button class="newsletter__button" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <footer class="page__footer">
+            <h2 class="footer__heading">The New Web Times</h2>
+            <nav class="footer__nav">
+                <ul class="footer__navlist">
+                    <li class="footer__navlist-item">
+                        <a href="index.html" class="footer__navlist-link">Home</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="reviews.html" class="footer__navlist-link">Reviews</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="glossary.html" class="footer__navlist-link">Glossary</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="jobs.html" class="footer__navlist-link">Jobs</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="tutorials.html" class="footer__navlist-link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__nav--social">
+                <ul class="footer__navlist--social">
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-instagram"></i>
+                        </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-reddit"></i>
+                        </a></li>
+                    <li class="footer__navlist-item--social"><a href="#" class="footer__navlist-link--social">
+                            <i class="fas fa-rss"></i>
+                        </a></li>
+                </ul>
+            </nav>
+            <p class="copyright">
+                Copyright &copy; 2019 The New Web Times
+            </p>
+        </footer>
+
+
+        <!-- Declare JavaScript at the bottom of the body to ensure content and styles load before functionality. -->
+        <script src="public/js/00_default.js"></script>
+    </body> <!-- /body.page__index -->
+
+</html>

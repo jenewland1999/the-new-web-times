@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Character Set, Viewport and Compatibility tags. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Webpage title -->
+        <title>The New Web Times - Tutorials</title>
+        <meta name="description" content="An online news publisher informing you of the newest web trends, stories, terminology, skills and careers.">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#32ce75">
+        <meta name="msapplication-TileColor" content="#ff0000">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS Libs / 3rd Party -->
+        <link rel="stylesheet" href="https://use.typekit.net/boh5mwd.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="public/css/lib/normalize.css">
+
+        <!-- Site-Specific CSS -->
+        <link rel="stylesheet" href="public/css/bundle.css">
+    </head>
+
+    <!-- Using BEM naming convention for CSS Classes. To learn more visit the official website. http://getbem.com/ -->
+
+    <body class="page page__tutorials">
+        <div class="offcanvas">
+            <header class="offcanvas__header">
+                <h3 class="offcanvas__heading">Navigation</h3>
+                <span class="offcanvas__button">
+                    <i class="fas fa-times"></i>
+                </span>
+            </header>
+
+            <nav class="site__navigation">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="reviews.html" class="nav__link">Reviews</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="glossary.html" class="nav__link">Glossary</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="jobs.html" class="nav__link">Jobs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="tutorials.html" class="nav__link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <!-- Icon - Menu -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-menu" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M0 0h24v24H0z" fill="none" />
+                <path class="svg-b" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+            <a href="index.html" class="page__link">
+                <h1 class="page__title">The New Web Times</h1>
+            </a>
+            <!-- Icon - Search -->
+            <svg viewbox="0 0 24 24" width="24" height="24" class="icon-search" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-a" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                <path class="svg-b" d="M0 0h24v24H0z" fill="none" />
+            </svg>
+        </header>
+        <section class="infobar">
+            <time class="infobar__time" datetime="2019-01-12">Saturday, 12th January 2019</time>
+            <a href="#" class="infobar__cta">Subscribe</a>
+        </section>
+
+        <main class="page__content">
+            <div class="tutorials">
+                <section class="tutorial tutorial--text">
+                    <h3 class="tutorial__heading">HTML: The Basics</h3>
+                    <div class="tutorial__body">
+                        <h5 class="tutorial__subheading">Introduction</h5>
+                        <p>In this tutorial I will teach you how to create a basic HTML document from scratch and
+                            together we will create a basic document..</p>
+                        <h5 class="tutorial__subheading">Getting Started</h5>
+                        <p>To get started with this tutorial you will need to download and install a text editor. I
+                            recommend Visual Studio Code by Microsoft. It is a great open source editor that is
+                            extremely fast, cross-platform and comes with lots of good features and tons of addons. To
+                            download it visit the website <a href="https://code.visualstudio.com/">code.visualstudio.com</a>.
+                            Once you have downloaded and installed the editor, open it up and you should see a screen a
+                            little like the one below.</p>
+                        <figure class="tutorial__figure">
+                            <img src="public/img/tutorial-01.jpg" alt="" class="tutorial__img">
+                            <figcaption class="tutorial__caption">VS Code welcome screen when you first start the
+                                editor.</figcaption>
+                        </figure>
+                        <p>Now you've opened the editor, navigate to the top menu bar, select file, then new file. Once
+                            you have selected that it will open a new empty file in the editor. Be sure to save it
+                            first thing so you can open it in the browser and obtain syntax hylighting within VS Code.
+                            Save the newly created file as index.html, as shown in the image below.</p>
+                        <figure class="tutorial__figure">
+                            <img src="public/img/tutorial-02.jpg" alt="" class="tutorial__img">
+                            <figcaption class="tutorial__caption">Saving a file to disk called index.html on the
+                                Desktop.</figcaption>
+                        </figure>
+                        <p>The next stage is to create the basic HTML5 document structure (as shown below in the
+                            image). At first it might look like quite a lot, considering you have to re-create all this
+                            for every html document you create. Luckily, there's a much easier way. Simply press the
+                            exclamation mark button then press the tab key. You'll notice that in just two keystrokes
+                            it creates all this boilerplate jargon just like that.</p>
+                        <figure class="tutorial__figure">
+                            <img src="public/img/tutorial-03.jpg" alt="" class="tutorial__img">
+                            <figcaption class="tutorial__caption">Creating the basic HTML5 boilerplate structure using
+                                the newly learned shortcut !, followed by the tab key.</figcaption>
+                        </figure>
+                        <p>And that is it. You've successfully created your own HTML5 document in VS Code. Still
+                            feeling under challenged? Checkout the amazing video courses on this page from
+                            Learncode.academy who creates some truly great content.</p>
+                    </div>
+                </section>
+                <section class="tutorial tutorial--video">
+                    <div class="page__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/gQojMIhELvM"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                </section>
+                <section class="tutorial tutorial--video">
+                    <div class="page__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/RjHflb-QgVc"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                </section>
+                <section class="tutorial tutorial--video">
+                    <div class="page__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/J35jug1uHzE"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                </section>
+                <section class="tutorial tutorial--video">
+                    <div class="page__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/dMK_3lH1YPo"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                </section>
+            </div>
+        </main>
+        <section class="newsletter">
+            <h3 class="newsletter__heading"><em>Subscribe to our Newsletter</em></h3>
+            <form class="newsletter__form" action="/newsletter" method="POST">
+                <label class="newsletter__label">
+                    <input class="newsletter__input" type="text" name="newsletter-email" id="newsletter-email"
+                        placeholder="Email Address">
+                    <!-- Icon - Checkmark in Circle -->
+                    <svg viewbox="0 0 24 24" width="24" height="24" class="icon-checkmark_circle" xmlns="http://www.w3.org/2000/svg">
+                        <path class="svg-a" fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z" />
+                        <path class="svg-b" d="M16.59 7.58L10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+                    </svg>
+                </label>
+                <button class="newsletter__button" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <footer class="page__footer">
+            <h2 class="footer__heading">The New Web Times</h2>
+            <nav class="footer__nav">
+                <ul class="footer__navlist">
+                    <li class="footer__navlist-item">
+                        <a href="index.html" class="footer__navlist-link">Home</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="reviews.html" class="footer__navlist-link">Reviews</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="glossary.html" class="footer__navlist-link">Glossary</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="jobs.html" class="footer__navlist-link">Jobs</a>
+                    </li>
+                    <li class="footer__navlist-item">
+                        <a href="tutorials.html" class="footer__navlist-link">Tutorials</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__nav--social">
+                <ul class="footer__navlist--social">
+                    <li class="footer__navlist-item--social">
+                        <a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer__navlist-item--social">
+                        <a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="footer__navlist-item--social">
+                        <a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__navlist-item--social">
+                        <a href="#" class="footer__navlist-link--social">
+                            <i class="fab fa-reddit"></i>
+                        </a>
+                    </li>
+                    <li class="footer__navlist-item--social">
+                        <a href="#" class="footer__navlist-link--social">
+                            <i class="fas fa-rss"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="copyright">
+                Copyright &copy; 2019 The New Web Times
+            </p>
+        </footer>
+
+        <!-- Declare JavaScript at the bottom of the body to ensure content and styles load before functionality. -->
+        <script src="public/js/00_default.js"></script>
+    </body>
+    <!-- /body.page__index -->
+
+</html>
